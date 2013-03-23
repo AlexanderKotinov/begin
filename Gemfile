@@ -22,6 +22,25 @@ end
 
 gem 'jquery-rails'
 
+gem 'execjs'
+gem 'therubyracer'
+
+group :development, :test do
+  gem 'debugger'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'factory_girl'
+  gem 'factory_girl_rails'
+  gem 'shoulda'
+  gem 'rspec', '>= 2.12.0'
+  gem 'rspec-rails', '>= 2.12.0'
+  gem 'simplecov'
+  gem 'fuubar'
+  gem 'fakeweb'
+  gem 'email_spec'
+  gem 'timecop'
+  gem 'shoulda-matchers'
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
